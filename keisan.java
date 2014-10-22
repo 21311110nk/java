@@ -11,8 +11,11 @@ class keisan {
     	// 処理：引き算
     	int sub = in0-in1;
     	// 処理：掛け算
+		int a = in0*in1;
     	// 処理：割り算
+		int b = in0/in1;
     	// 処理：余り
+		int c = in0%in1;
     	
     	// 計算結果を出力
     	System.out.println("足し算："+add);
