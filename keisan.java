@@ -1,24 +1,29 @@
 class keisan {
 	public static void main(String args[])
 	{
-    	// å…¥åŠ›ï¼šï¼’ã¤ã®æ•°å€¤ã‚’å…¥åŠ›
+    	// “ü—ÍF‚Q‚Â‚Ì”’l‚ğ“ü—Í
     	int in0 = new java.util.Scanner(System.in).nextInt();
     	int in1 = new java.util.Scanner(System.in).nextInt();
     	System.out.println(in0+","+in1);
     	
-    	// å‡¦ç†ï¼šè¶³ã—ç®—
+    	// ˆ—F‘«‚µZ
     	int add = in0+in1;
-    	// å‡¦ç†ï¼šå¼•ãç®—
+    	// ˆ—Fˆø‚«Z
     	int sub = in0-in1;
-    	// å‡¦ç†ï¼šæ›ã‘ç®—
+    	// ˆ—FŠ|‚¯Z
 		int a = in0*in1;
-    	// å‡¦ç†ï¼šå‰²ã‚Šç®—
+    	// ˆ—FŠ„‚èZ
 		int b = in0/in1;
-    	// å‡¦ç†ï¼šä½™ã‚Š
+    	// ˆ—F—]‚è
 		int c = in0%in1;
     	
-    	// è¨ˆç®—çµæœã‚’å‡ºåŠ›
-    	System.out.println("è¶³ã—ç®—ï¼š"+add);
-    	System.out.println("å¼•ãç®—ï¼š"+sub);
+    	// ŒvZŒ‹‰Ê‚ğo—Í
+    	System.out.println("‘«‚µZF"+add);
+    	System.out.println("ˆø‚«ZF"+sub);
+		System.out.println("Š|‚¯Z"+a);
+    	System.out.println("Š„‚èZF"+b);
+		System.out.println("—]‚èF"+‚ƒ);
+		
+		
 	}
 }
