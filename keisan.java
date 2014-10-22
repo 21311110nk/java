@@ -17,7 +17,7 @@ class keisan {
     	// ˆ—F—]‚è
 		int c = in0%in1;
     	
-    	// ŒvZŒ‹‰Êo—Í
+    	// ŒvZŒ‹‰Ê‚ğo—Í
     	System.out.println("‘«‚µZF"+add);
     	System.out.println("ˆø‚«ZF"+sub);
 		System.out.println("Š|‚¯Z"+a);
