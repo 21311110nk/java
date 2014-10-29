@@ -7,7 +7,7 @@ class bunki {
 		System.out.print("数値1=");
     	int in0 = new java.util.Scanner(System.in).nextInt();
 		System.out.print("足し算（+）、引き算（-）、割り算（*）、余り（%）のどれか=");
-        String kigou = new java.util.Scanner(System.in).nextInt();
+        String kigou = new java.util.Scanner(System.in).nextLine();
 		System.out.print("数値2=");
     	int in1 = new java.util.Scanner(System.in).nextInt();
     	// 処理：記号に応じて計算
