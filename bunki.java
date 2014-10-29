@@ -11,9 +11,20 @@ class bunki {
 		System.out.print("数値2=");
     	int in1 = new java.util.Scanner(System.in).nextInt();
     	// 処理：記号に応じて計算
-		
+		if (kigou.equals("+"))
+		{  kotae = in0+in1;
+	    } else if (kigou.equals("-"))
+		{  kotae = in0-in1;
+        } else if (kigou.equals("*"))
+		{  kotae = in0*in1;
+        } else if (kigou.equals("/"))
+	    {  kotae = in0/in1;
+        } else {if (kigou.equals("%"))
+		{  kotae = in0%in1;
+        }
 		//　出力：計算結果を出力
 		// [数値　計算記号　数値　= 答え
-		System.out.print("" + in0 + kigou + in1 + "=" + kotae);
+		System.out.println("" + in0 + kigou + in1 + "=" + kotae);
 	}
-}
+    }
+}	
