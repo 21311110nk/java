@@ -1,12 +1,14 @@
 class keisan {
 	public static void main(String args[])
 	{
-    	// “ü—ÍF‚Q‚Â‚Ì”’l‚ğ“ü—Í
+    	// “ü—ÍF2‚Â‚Ì”’l‚ğ“ü—Í
+		
     	int in0 = new java.util.Scanner(System.in).nextInt();
-    	int in1 = new java.util.Scanner(System.in).nextInt();
+    	
+		int in1 = new java.util.Scanner(System.in).nextInt();
     	System.out.println(in0+","+in1);
     	
-    	// ˆ—F‘«‚µZ
+    	// ŒvZ:‘«‚µZ
     	int add = in0+in1;
     	// ˆ—Fˆø‚«Z
     	int sub = in0-in1;
@@ -18,11 +20,11 @@ class keisan {
 		int c = in0%in1;
     	
     	// ŒvZŒ‹‰Ê‚ğo—Í
-    	System.out.println("‘«‚µZF"+add);
-    	System.out.println("ˆø‚«ZF"+sub);
-		System.out.println("Š|‚¯Z"+a);
-    	System.out.println("Š„‚èZF"+b);
-		System.out.println("—]‚èF"+‚ƒ);
+    	System.out.println("+:"+add);
+    	System.out.println("-:"+sub);
+		System.out.println("*:"+a);
+    	System.out.println("/:"+b);
+		System.out.println("%:"+‚ƒ);
 		
 		
 	}
