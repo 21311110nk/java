@@ -37,4 +37,3 @@ class sum {
 			System.out.println(e.toString());
 		}
 	}
-}
