@@ -4,7 +4,7 @@ import java.io.*;
 class sum {
 	public static void main(String args[])
 	{
-	int goukei = new java.util.Scanner(System.in).nextInt();
+	
 		// 変数aをtensu.txtにファイル出力する
 		try{
 			// tensu.txtに書き込む準備
@@ -15,17 +15,18 @@ class sum {
 			String datas = br.readLine();
 			String[] str1Ary = datas.split(",");
 			int [] idatas=new int[str1Ary.length];
+			int goukei=0;
 			// 分割された文字列の表示
             for (int i=0; i<str1Ary.length; i++) {
             	// idatas[i]に、str1Ary[i]をint型にキャストして代入
             	idatas[i]=Integer.valueOf(str1Ary[i]).intValue();
 				
-				int goukei = goukei + str1Ary[i];
+				goukei=goukei+idatas[i];
             	
             	System.out.println(str1Ary[i]);
 				
             }
-			System.out.println(goukei);
+			System.out.println("goukei);
             
             
             
